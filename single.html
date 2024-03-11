@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>Cruton - Наслаждайтесь отдыхом с нашими колёсами</title>
+	<meta name="description" content="CRUTON - СЕРВИС АРЕНДЫ АВТОМОБИЛЕЙ И УСЛУГ К НИМ">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link rel="icon" href="images/favicon.png">
+
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="libs/swiper/swiper-bundle.min.css">
+
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" defer></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" defer></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" defer></script>
+	<script src="libs/swiper/swiper-bundle.min.js" defer></script>
+	<script src="js/common.js" defer></script>
+
+</head>
+
+<body>
+
+<header>
+	<div class="container-fluid">
+		<div class="row align-items-center">
+			<div class="col-lg-5">
+				<div class="d-flex align-items-center">
+					<a href="#" class="logo">
+						<img src="images/logo.png" loading="lazy">
+					</a>
+					<form class="form-inline  d-lg-flex d-none">
+						<div class="form-group mx-sm-3">
+							<input type="text" class="form-control" id="inputPassword2" placeholder="Например: Аренда машиноместа">
+						</div>
+						<button type="submit" class="btn">Найти</button>
+					</form>
+				</div>
+			</div>
+			<div class="col-4 d-lg-block d-none">
+				<nav>
+					<ul>
+						<li>
+							<a href="#">
+								<svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M3 8L5.72187 10.2682C5.90158 10.418 6.12811 10.5 6.36205 10.5H17.6379C17.8719 10.5 18.0984 10.418 18.2781 10.2682L21 8M6.5 14H6.51M17.5 14H17.51M8.16065 4.5H15.8394C16.5571 4.5 17.2198 4.88457 17.5758 5.50772L20.473 10.5777C20.8183 11.1821 21 11.8661 21 12.5623V18.5C21 19.0523 20.5523 19.5 20 19.5H19C18.4477 19.5 18 19.0523 18 18.5V17.5H6V18.5C6 19.0523 5.55228 19.5 5 19.5H4C3.44772 19.5 3 19.0523 3 18.5V12.5623C3 11.8661 3.18166 11.1821 3.52703 10.5777L6.42416 5.50772C6.78024 4.88457 7.44293 4.5 8.16065 4.5ZM7 14C7 14.2761 6.77614 14.5 6.5 14.5C6.22386 14.5 6 14.2761 6 14C6 13.7239 6.22386 13.5 6.5 13.5C6.77614 13.5 7 13.7239 7 14ZM18 14C18 14.2761 17.7761 14.5 17.5 14.5C17.2239 14.5 17 14.2761 17 14C17 13.7239 17.2239 13.5 17.5 13.5C17.7761 13.5 18 13.7239 18 14Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+								Услуги
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<svg fill="#000000" width="24px" height="24px" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+									<g>
+									<path d="M1,19H5V15H1Zm7,0h4V15H8Zm7,0h4V15H15ZM1,12H5V8H1Zm7,0h4V8H8Zm7,0h4V8H15ZM1,5H5V1H1ZM8,5h4V1H8Zm7-4V5h4V1Z"/>
+									</g>
+								</svg>
+								Машины
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M3 9.5H21M3 14.5H21M8 4.5V19.5M6.2 19.5H17.8C18.9201 19.5 19.4802 19.5 19.908 19.282C20.2843 19.0903 20.5903 18.7843 20.782 18.408C21 17.9802 21 17.4201 21 16.3V7.7C21 6.5799 21 6.01984 20.782 5.59202C20.5903 5.21569 20.2843 4.90973 19.908 4.71799C19.4802 4.5 18.9201 4.5 17.8 4.5H6.2C5.0799 4.5 4.51984 4.5 4.09202 4.71799C3.71569 4.90973 3.40973 5.21569 3.21799 5.59202C3 6.01984 3 6.57989 3 7.7V16.3C3 17.4201 3 17.9802 3.21799 18.408C3.40973 18.7843 3.71569 19.0903 4.09202 19.282C4.51984 19.5 5.07989 19.5 6.2 19.5Z" stroke="#000000" stroke-width="2"/>
+									</svg>
+								Тарифы
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="col-lg-3">
+				<div class="align-items-center justify-content-end d-lg-flex d-none">
+					<div class="dropdown">
+						<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Информация
+						</button>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item" href="#">Вопросы и ответы</a>
+							<a class="dropdown-item" href="#">Партнеры</a>
+							<a class="dropdown-item" href="#">Контакты</a>
+							<a class="dropdown-item" href="#">О компании</a>
+						</div>
+					</div>
+					<a href="#" class="btn ml-2">Войти</a>
+				</div>
+				<div class="d-lg-none d-flex justify-content-end">
+					<button class="menu_button">
+						<span></span>
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<aside class="d-lg-none d-block">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-12">
+				<div class="aside_menu">
+					<div class="menu_toggle">Поиск:</div>
+					<form class="form-inline flex-column mt-3 mb-3">
+						<div class="form-group mx-sm-3 w-100">
+							<input type="text" class="form-control" id="inputPassword2" placeholder="Например: Аренда машиноместа">
+						</div>
+						<button type="submit" class="btn w-100 mt-2">Найти</button>
+					</form>
+					<div class="menu_toggle">Автомобили</div>
+					<ul class="mt-3">
+						<li><a href="#">Nissan Qashkai</a></li>
+						<li><a href="#">Smart mini</a></li>
+						<li><a href="#">Volkswagen polo</a></li>
+						<li><a href="#">Hyndai Elantra</a></li>
+						<li><a href="#">Kia Spectra</a></li>
+						<li><a href="#" class="bold">Все автомобили</a></li>
+					</ul>
+					<div class="menu_toggle">Услуги</div>
+					<ul class="mt-3">
+						<li><a href="#">Аренда машиноместа</a></li>
+						<li><a href="#">Детское кресло</a></li>
+						<li><a href="#">Доставка автомобиля</a></li>
+						<li><a href="#">Услуга водителя</a></li>
+						<li><a href="#" class="bold">Все услуги</a></li>
+					</ul>
+					<div class="menu_toggle">Информация</div>
+					<ul class="mt-3">
+						<li><a href="#">Вопрос/ответ</a></li>
+						<li><a href="#">Партнеры</a></li>
+						<li><a href="#">О компании</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+					<a href="#" class="btn contact w-100 mt-3 mb-3">Обратный звонок</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</aside>
+<div class="page_content single_product">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<h2 class="section-title">Nissan qashkai</h2>
+				<p>серия городских компактных кроссоверов, выпускающихся японской компанией Nissan с 2006 года. Qashqai впервые был представлен как концепт на Женевском автосалоне в 2004 году, а с 2007 года стартовали продажи модели первого поколения. У модели первого поколения существовала и семиместная удлинённая версия, получившая название Qashqai+2.[⇨] Презентация модели второго поколения прошла в ноябре 2013 года, а выпускалась она вплоть до 2022 года.[⇨] В настоящий момент с 2021 года выпускается модель третьего поколения.</p>
+				<h4>3000 руб \ сутки</h4>
+				<a href="#" class="btn mt-3">Заказать</a>
+			</div>
+			<div class="col">
+				<img src="images/nissan.png" alt="">
+			</div>
+		</div>
+	</div>
+</div>
+<footer>
+	<div class="container">
+		<div class="row gy-4">
+			<div class="col-lg-3">
+				<a href="#" class="logo">
+					<img src="images/logo.png" alt="">
+				</a>
+				<div class="mt-4">
+					<a href="tel:88009903124" class="tel">8 (800) 990-31-24</a>
+					<p>Круглосуточно 24/7</p>
+				</div>
+			</div>
+			<div class="col-lg-3">
+				<h4>Автомобили</h4>
+				<nav>
+					<ul>
+						<li><a href="#">Nissan Qashkai</a></li>
+						<li><a href="#">Smart mini</a></li>
+						<li><a href="#">Volkswagen polo</a></li>
+						<li><a href="#">Hyndai Elantra</a></li>
+						<li><a href="#">Kia Spectra</a></li>
+						<li><a href="#" class="bold">Все автомобили</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="col-lg-3">
+				<h4>Услуги</h4>
+				<nav>
+					<ul>
+						<li><a href="#">Аренда машиноместа</a></li>
+						<li><a href="#">Детское кресло</a></li>
+						<li><a href="#">Доставка автомобиля</a></li>
+						<li><a href="#">Услуга водителя</a></li>
+						<li><a href="#" class="bold">Все услуги</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="col-lg-3">
+				<h4>Информация</h4>
+				<nav>
+					<ul>
+						<li><a href="#">Вопрос/ответ</a></li>
+						<li><a href="#">Партнеры</a></li>
+						<li><a href="#">О компании</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="col-12">
+				<p class="mb-0">© Cruton 2024</p>
+			</div>
+		</div>
+	</div>
+</footer>
+</body>
+</html>
